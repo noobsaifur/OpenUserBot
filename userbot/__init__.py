@@ -46,7 +46,7 @@ CONFIG_CHECK = os.environ.get(
 if CONFIG_CHECK:
     LOGS.info(
         "Please remove the line mentioned in the first hashtag from the config.env file"
-   " )
+   " , None )
     quit(1)
 
 # Telegram App KEY and HASH
