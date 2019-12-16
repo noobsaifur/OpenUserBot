@@ -46,12 +46,12 @@ CONFIG_CHECK = os.environ.get(
 if CONFIG_CHECK:
     LOGS.info(
         "Please remove the line mentioned in the first hashtag from the config.env file"
-    )
+   " )
     quit(1)
 
 # Telegram App KEY and HASH
-API_KEY = os.environ.get("API_KEY", "981717")
-API_HASH = os.environ.get("API_HASH", "ee10aa2b825f3024060164b8b489610f")
+API_KEY = os.environ.get("API_KEY","981717")
+API_HASH = os.environ.get("API_HASH","ee10aa2b825f3024060164b8b489610f")
 
 
 # Userbot Session String
